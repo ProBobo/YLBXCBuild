@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EB7FA80C67FE222D66E5530 /* Pods_YLBXCBuild_YLBXCBuildUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427DFDDE5CA9D85BC2CDBB25 /* Pods_YLBXCBuild_YLBXCBuildUITests.framework */; };
+		7ECDE289A9EF8C00CD31A058 /* Pods_YLBXCBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 218D69F4CE0FFDCA61E06F90 /* Pods_YLBXCBuild.framework */; };
+		B6C9D5067A14781FDD804358 /* Pods_YLBXCBuildTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710755212D2B98D21F61DD20 /* Pods_YLBXCBuildTests.framework */; };
+		BE3392462701691E00E4040B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3392452701691E00E4040B /* AppDelegate.m */; };
+		BE3392492701691E00E4040B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3392482701691E00E4040B /* SceneDelegate.m */; };
+		BE33924C2701691E00E4040B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33924B2701691E00E4040B /* ViewController.m */; };
+		BE33924F2701691E00E4040B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE33924D2701691E00E4040B /* Main.storyboard */; };
+		BE3392512701692000E4040B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3392502701692000E4040B /* Assets.xcassets */; };
+		BE3392542701692000E4040B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3392522701692000E4040B /* LaunchScreen.storyboard */; };
+		BE3392572701692000E4040B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3392562701692000E4040B /* main.m */; };
+		BE3392612701692100E4040B /* YLBXCBuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3392602701692100E4040B /* YLBXCBuildTests.m */; };
+		BE33926C2701692100E4040B /* YLBXCBuildUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33926B2701692100E4040B /* YLBXCBuildUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE33925D2701692100E4040B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3392392701691E00E4040B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3392402701691E00E4040B;
+			remoteInfo = YLBXCBuild;
+		};
+		BE3392682701692100E4040B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3392392701691E00E4040B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3392402701691E00E4040B;
+			remoteInfo = YLBXCBuild;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D190F49924BA4AEF7FC2B4 /* Pods-YLBXCBuildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBXCBuildTests.release.xcconfig"; path = "Target Support Files/Pods-YLBXCBuildTests/Pods-YLBXCBuildTests.release.xcconfig"; sourceTree = "<group>"; };
+		218D69F4CE0FFDCA61E06F90 /* Pods_YLBXCBuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBXCBuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		427DFDDE5CA9D85BC2CDBB25 /* Pods_YLBXCBuild_YLBXCBuildUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBXCBuild_YLBXCBuildUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B89C65DC8B24AA642BC2525 /* Pods-YLBXCBuildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBXCBuildTests.debug.xcconfig"; path = "Target Support Files/Pods-YLBXCBuildTests/Pods-YLBXCBuildTests.debug.xcconfig"; sourceTree = "<group>"; };
+		664B1EAF5A1A4A9B483FA266 /* Pods-YLBXCBuild-YLBXCBuildUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBXCBuild-YLBXCBuildUITests.release.xcconfig"; path = "Target Support Files/Pods-YLBXCBuild-YLBXCBuildUITests/Pods-YLBXCBuild-YLBXCBuildUITests.release.xcconfig"; sourceTree = "<group>"; };
+		710755212D2B98D21F61DD20 /* Pods_YLBXCBuildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBXCBuildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7861984106F13BB49E663A9D /* Pods-YLBXCBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBXCBuild.release.xcconfig"; path = "Target Support Files/Pods-YLBXCBuild/Pods-YLBXCBuild.release.xcconfig"; sourceTree = "<group>"; };
+		BE3392412701691E00E4040B /* YLBXCBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBXCBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3392442701691E00E4040B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE3392452701691E00E4040B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE3392472701691E00E4040B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BE3392482701691E00E4040B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BE33924A2701691E00E4040B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE33924B2701691E00E4040B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE33924E2701691E00E4040B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3392502701692000E4040B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3392532701692000E4040B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3392552701692000E4040B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3392562701692000E4040B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE33925C2701692100E4040B /* YLBXCBuildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLBXCBuildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3392602701692100E4040B /* YLBXCBuildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBXCBuildTests.m; sourceTree = "<group>"; };
+		BE3392622701692100E4040B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3392672701692100E4040B /* YLBXCBuildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLBXCBuildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE33926B2701692100E4040B /* YLBXCBuildUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLBXCBuildUITests.m; sourceTree = "<group>"; };
+		BE33926D2701692100E4040B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D533382B4999DDCE0E8D57B1 /* Pods-YLBXCBuild-YLBXCBuildUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBXCBuild-YLBXCBuildUITests.debug.xcconfig"; path = "Target Support Files/Pods-YLBXCBuild-YLBXCBuildUITests/Pods-YLBXCBuild-YLBXCBuildUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F46895FB2864513AAE71EBD7 /* Pods-YLBXCBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBXCBuild.debug.xcconfig"; path = "Target Support Files/Pods-YLBXCBuild/Pods-YLBXCBuild.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE33923E2701691E00E4040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECDE289A9EF8C00CD31A058 /* Pods_YLBXCBuild.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3392592701692100E4040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C9D5067A14781FDD804358 /* Pods_YLBXCBuildTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3392642701692100E4040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB7FA80C67FE222D66E5530 /* Pods_YLBXCBuild_YLBXCBuildUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7806D4DF5ADCA20D93C5A0A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				218D69F4CE0FFDCA61E06F90 /* Pods_YLBXCBuild.framework */,
+				427DFDDE5CA9D85BC2CDBB25 /* Pods_YLBXCBuild_YLBXCBuildUITests.framework */,
+				710755212D2B98D21F61DD20 /* Pods_YLBXCBuildTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBDE0C7505FA88025AFC1024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F46895FB2864513AAE71EBD7 /* Pods-YLBXCBuild.debug.xcconfig */,
+				7861984106F13BB49E663A9D /* Pods-YLBXCBuild.release.xcconfig */,
+				D533382B4999DDCE0E8D57B1 /* Pods-YLBXCBuild-YLBXCBuildUITests.debug.xcconfig */,
+				664B1EAF5A1A4A9B483FA266 /* Pods-YLBXCBuild-YLBXCBuildUITests.release.xcconfig */,
+				5B89C65DC8B24AA642BC2525 /* Pods-YLBXCBuildTests.debug.xcconfig */,
+				15D190F49924BA4AEF7FC2B4 /* Pods-YLBXCBuildTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE3392382701691E00E4040B = {
+			isa = PBXGroup;
+			children = (
+				BE3392432701691E00E4040B /* YLBXCBuild */,
+				BE33925F2701692100E4040B /* YLBXCBuildTests */,
+				BE33926A2701692100E4040B /* YLBXCBuildUITests */,
+				BE3392422701691E00E4040B /* Products */,
+				BBDE0C7505FA88025AFC1024 /* Pods */,
+				7806D4DF5ADCA20D93C5A0A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3392422701691E00E4040B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3392412701691E00E4040B /* YLBXCBuild.app */,
+				BE33925C2701692100E4040B /* YLBXCBuildTests.xctest */,
+				BE3392672701692100E4040B /* YLBXCBuildUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3392432701691E00E4040B /* YLBXCBuild */ = {
+			isa = PBXGroup;
+			children = (
+				BE3392442701691E00E4040B /* AppDelegate.h */,
+				BE3392452701691E00E4040B /* AppDelegate.m */,
+				BE3392472701691E00E4040B /* SceneDelegate.h */,
+				BE3392482701691E00E4040B /* SceneDelegate.m */,
+				BE33924A2701691E00E4040B /* ViewController.h */,
+				BE33924B2701691E00E4040B /* ViewController.m */,
+				BE33924D2701691E00E4040B /* Main.storyboard */,
+				BE3392502701692000E4040B /* Assets.xcassets */,
+				BE3392522701692000E4040B /* LaunchScreen.storyboard */,
+				BE3392552701692000E4040B /* Info.plist */,
+				BE3392562701692000E4040B /* main.m */,
+			);
+			path = YLBXCBuild;
+			sourceTree = "<group>";
+		};
+		BE33925F2701692100E4040B /* YLBXCBuildTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3392602701692100E4040B /* YLBXCBuildTests.m */,
+				BE3392622701692100E4040B /* Info.plist */,
+			);
+			path = YLBXCBuildTests;
+			sourceTree = "<group>";
+		};
+		BE33926A2701692100E4040B /* YLBXCBuildUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE33926B2701692100E4040B /* YLBXCBuildUITests.m */,
+				BE33926D2701692100E4040B /* Info.plist */,
+			);
+			path = YLBXCBuildUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3392402701691E00E4040B /* YLBXCBuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3392702701692100E4040B /* Build configuration list for PBXNativeTarget "YLBXCBuild" */;
+			buildPhases = (
+				A7F83382016379A337D4C6F2 /* [CP] Check Pods Manifest.lock */,
+				BE33923D2701691E00E4040B /* Sources */,
+				BE33923E2701691E00E4040B /* Frameworks */,
+				BE33923F2701691E00E4040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLBXCBuild;
+			productName = YLBXCBuild;
+			productReference = BE3392412701691E00E4040B /* YLBXCBuild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE33925B2701692100E4040B /* YLBXCBuildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3392732701692100E4040B /* Build configuration list for PBXNativeTarget "YLBXCBuildTests" */;
+			buildPhases = (
+				E3A1787BDB59445B6F8E9C10 /* [CP] Check Pods Manifest.lock */,
+				BE3392582701692100E4040B /* Sources */,
+				BE3392592701692100E4040B /* Frameworks */,
+				BE33925A2701692100E4040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE33925E2701692100E4040B /* PBXTargetDependency */,
+			);
+			name = YLBXCBuildTests;
+			productName = YLBXCBuildTests;
+			productReference = BE33925C2701692100E4040B /* YLBXCBuildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3392662701692100E4040B /* YLBXCBuildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3392762701692100E4040B /* Build configuration list for PBXNativeTarget "YLBXCBuildUITests" */;
+			buildPhases = (
+				93EDB5A98E95D262C26AADC1 /* [CP] Check Pods Manifest.lock */,
+				BE3392632701692100E4040B /* Sources */,
+				BE3392642701692100E4040B /* Frameworks */,
+				BE3392652701692100E4040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3392692701692100E4040B /* PBXTargetDependency */,
+			);
+			name = YLBXCBuildUITests;
+			productName = YLBXCBuildUITests;
+			productReference = BE3392672701692100E4040B /* YLBXCBuildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3392392701691E00E4040B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BE3392402701691E00E4040B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BE33925B2701692100E4040B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BE3392402701691E00E4040B;
+					};
+					BE3392662701692100E4040B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BE3392402701691E00E4040B;
+					};
+				};
+			};
+			buildConfigurationList = BE33923C2701691E00E4040B /* Build configuration list for PBXProject "YLBXCBuild" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3392382701691E00E4040B;
+			productRefGroup = BE3392422701691E00E4040B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3392402701691E00E4040B /* YLBXCBuild */,
+				BE33925B2701692100E4040B /* YLBXCBuildTests */,
+				BE3392662701692100E4040B /* YLBXCBuildUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE33923F2701691E00E4040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3392542701692000E4040B /* LaunchScreen.storyboard in Resources */,
+				BE3392512701692000E4040B /* Assets.xcassets in Resources */,
+				BE33924F2701691E00E4040B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE33925A2701692100E4040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3392652701692100E4040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93EDB5A98E95D262C26AADC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLBXCBuild-YLBXCBuildUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F83382016379A337D4C6F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLBXCBuild-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A1787BDB59445B6F8E9C10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YLBXCBuildTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE33923D2701691E00E4040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE33924C2701691E00E4040B /* ViewController.m in Sources */,
+				BE3392462701691E00E4040B /* AppDelegate.m in Sources */,
+				BE3392572701692000E4040B /* main.m in Sources */,
+				BE3392492701691E00E4040B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3392582701692100E4040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3392612701692100E4040B /* YLBXCBuildTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3392632701692100E4040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE33926C2701692100E4040B /* YLBXCBuildUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE33925E2701692100E4040B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3392402701691E00E4040B /* YLBXCBuild */;
+			targetProxy = BE33925D2701692100E4040B /* PBXContainerItemProxy */;
+		};
+		BE3392692701692100E4040B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3392402701691E00E4040B /* YLBXCBuild */;
+			targetProxy = BE3392682701692100E4040B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE33924D2701691E00E4040B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE33924E2701691E00E4040B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3392522701692000E4040B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3392532701692000E4040B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE33926E2701692100E4040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE33926F2701692100E4040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3392712701692100E4040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46895FB2864513AAE71EBD7 /* Pods-YLBXCBuild.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBXCBuild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.app.YLBXCBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE3392722701692100E4040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7861984106F13BB49E663A9D /* Pods-YLBXCBuild.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBXCBuild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.app.YLBXCBuild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE3392742701692100E4040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B89C65DC8B24AA642BC2525 /* Pods-YLBXCBuildTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBXCBuildTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.app.YLBXCBuildTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLBXCBuild.app/YLBXCBuild";
+			};
+			name = Debug;
+		};
+		BE3392752701692100E4040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D190F49924BA4AEF7FC2B4 /* Pods-YLBXCBuildTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBXCBuildTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.app.YLBXCBuildTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLBXCBuild.app/YLBXCBuild";
+			};
+			name = Release;
+		};
+		BE3392772701692100E4040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D533382B4999DDCE0E8D57B1 /* Pods-YLBXCBuild-YLBXCBuildUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBXCBuildUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.app.YLBXCBuildUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLBXCBuild;
+			};
+			name = Debug;
+		};
+		BE3392782701692100E4040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664B1EAF5A1A4A9B483FA266 /* Pods-YLBXCBuild-YLBXCBuildUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
+				INFOPLIST_FILE = YLBXCBuildUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulibo.app.YLBXCBuildUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLBXCBuild;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE33923C2701691E00E4040B /* Build configuration list for PBXProject "YLBXCBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE33926E2701692100E4040B /* Debug */,
+				BE33926F2701692100E4040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3392702701692100E4040B /* Build configuration list for PBXNativeTarget "YLBXCBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3392712701692100E4040B /* Debug */,
+				BE3392722701692100E4040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3392732701692100E4040B /* Build configuration list for PBXNativeTarget "YLBXCBuildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3392742701692100E4040B /* Debug */,
+				BE3392752701692100E4040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3392762701692100E4040B /* Build configuration list for PBXNativeTarget "YLBXCBuildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3392772701692100E4040B /* Debug */,
+				BE3392782701692100E4040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3392392701691E00E4040B /* Project object */;
+}

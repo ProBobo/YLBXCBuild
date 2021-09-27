@@ -1,0 +1,6 @@
+framework module Pods_YLBXCBuild_YLBXCBuildUITests {
+  umbrella header "Pods-YLBXCBuild-YLBXCBuildUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

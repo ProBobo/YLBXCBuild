@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>YLBXCBuild.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>60C7AB2C32326596A30CEBFFF61A76BA4088FEB8</string>
+				<key>dateExpires</key>
+				<string>2022/9/22</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>M6Z7C5C7K3.com.yulibo.app.YLBXCBuild</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>M6Z7C5C7K3</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>M6Z7C5C7K3.com.yulibo.app.YLBXCBuild</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>YLBXCBuild.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a284bb2e-a9bc-476a-a15e-9941a34cde80</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.yulibo.app.YLBXCBuild</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>M6Z7C5C7K3</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

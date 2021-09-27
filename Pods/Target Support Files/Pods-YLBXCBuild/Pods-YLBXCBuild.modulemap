@@ -1,0 +1,6 @@
+framework module Pods_YLBXCBuild {
+  umbrella header "Pods-YLBXCBuild-umbrella.h"
+
+  export *
+  module * { export * }
+}
