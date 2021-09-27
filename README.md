@@ -1,5 +1,5 @@
 # YLBXCBuild
-##xcodebuild脚本自动打包
+## xcodebuild脚本自动打包
 
 1、Signing & Capabilities选择 Automatically manage signing
 
